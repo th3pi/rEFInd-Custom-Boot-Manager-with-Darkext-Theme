@@ -1,7 +1,5 @@
 # rEFInd - Custom Boot Manager
 
-Status: Not started
-
 ## Installing rEFInd (USB Installation)
 
 ### Required Items
