@@ -1,7 +1,5 @@
 # rEFInd - Custom Boot Manager
 
-Status: Not started
-
 ## Installing rEFInd (USB Installation)
 
 ### Required Items
@@ -58,7 +56,7 @@ Status: Not started
     - Mount the EFI partition where rEFInd was installed
     - Click Open Partition
 3. Clone or Download this repository
-4. Create a new folder named **refind** in EFI > refind
-5. Copy all the files into the themes folder
+4. Create a new folder named **themes** in EFI > refind
+5. Copy all the files (except icon templates folder, README.md, and screenshot.png) into the themes folder
 6. Go back into the refind folder and add this line to the end of `refind.conf` 
     - `include themes/theme.conf`
